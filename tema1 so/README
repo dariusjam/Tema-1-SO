@@ -1,0 +1,27 @@
+Mangea Liviu Darius 334CA
+
+Tema 1 SO
+
+In implementarea temei mi-am definit doua structuri, una de nod care contine
+cuvantul si un pointer catre un nod urmator si o structura in care am
+un vector de buckets de tip node.
+
+Implementarea functionalitatilor hash table-ului se afla in functions.c unde
+se gasesc toate functiile ce trebuiau implementate. Acestea se folosesc de
+functia de hash din hash.c pentru a calcula indexul bucketului unde trebuie
+sa adauge, sa gaseasca, sa stearga sau de unde trebuie sa printeze elemente.
+
+Fisierul tema1.c contine doar mainul in care imi declar un hash table si aloc
+memorie pentru el si citesc comenziile de la intrare pe care le pasez
+functiei de parsare. Aceasta imparte comanda in tokens si, in functie de asta
+apeleaza functiile hash table-ului care altereaza tabela.
+
+Fisierele din arhiva:
+tema1.c
+functions.c
+functions.h
+hash.c
+hash.h
+GNUmakefile
+Makefile
+README
